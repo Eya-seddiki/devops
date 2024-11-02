@@ -23,7 +23,7 @@ class BlocRestController {
         get() = blocService!!.retrieveAllBlocs()
     //return listBlocs;
 
-
+//return
     // http://localhost:8089/tpfoyer/bloc/retrieve-bloc/8
     @GetMapping("/retrieve-bloc/{bloc-id}")
     fun retrieveBloc(@PathVariable("bloc-id") bId: Long?): Bloc {
