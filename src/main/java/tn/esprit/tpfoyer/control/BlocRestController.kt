@@ -14,7 +14,7 @@ import tn.esprit.tpfoyer.service.IBlocService
 @RequestMapping("/bloc")
 class BlocRestController {
     var blocService: IBlocService? = null
-
+//managment
 
     @get:Operation(description = "WS de récuperation de tous les Blocs ")
     @get:GetMapping("/retrieve-all-blocs")
