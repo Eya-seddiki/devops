@@ -37,7 +37,8 @@ class BlocRestController {
         val bloc = blocService!!.addBloc(c)
         return bloc
     }
-    //fadyt
+    //return
+    //bloc
     // http://localhost:8089/tpfoyer/bloc/remove-bloc/{bloc-id}
     @DeleteMapping("/remove-bloc/{bloc-id}")
     fun removeBloc(@PathVariable("bloc-id") chId: Long?) {
