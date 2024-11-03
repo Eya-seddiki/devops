@@ -17,6 +17,18 @@
         <java.version>17</java.version>
         <kotlin.version>2.0.21</kotlin.version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://192.168.50.4:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://192.168.50.4:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencies>
 
         <dependency>
