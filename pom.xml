@@ -82,12 +82,7 @@
         </dependency>
 
         <!-- Mockito JUnit Jupiter Extension -->
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-junit-jupiter</artifactId>
-            <version>5.0.0</version>
-            <scope>test</scope>
-        </dependency>
+
 
         <!-- AssertJ for Fluent Assertions (Optional but useful for clean assertions) -->
         <dependency>
